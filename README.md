@@ -1,10 +1,12 @@
 # Puzzler Project for VR Nanodegree
 
-This is my submission for the Udacity VR Developer Nanodegree Puzzler project. I designed and built a mobile VR application that takes a user through a dungeon-based memory puzzle. I took an iterative approach to creating the app, sketching some initial designs, before user tessting the app throughout the creation stages. I incorporated the feedback from user testing into each iteration of the Puzzler app.
+## Introduction
+
+This is my submission for the Udacity VR Developer Nanodegree Puzzler project. I designed and built a mobile VR application that takes a user through a dungeon-based memory puzzle. I took an iterative approach to creating the app, sketching some initial designs before user testing the app throughout the creation stages. I incorporated the feedback from user testing into each iteration of the Puzzler app.
 
 ### Initial Foundations
 
-The Udacity team provided the base materials and foundational scripts, which I used to build out the app. The starting point was to achieve a realistic world-scale from the initial assets, and iterate from there. 
+The Udacity team provided the base materials and foundational scripts, which I used to build out the app. The starting point was to achieve a realistic world scale from the initial assets and iterate from there. 
 
 ## Puzzler
 
@@ -28,7 +30,7 @@ _Puzzler is a mobile VR application for new VR users which challenges them to so
 #### Elsie
 ![Elsie](http://i.imgur.com/KXxgzt6m.png)
 
-Elsie is a 39 year old mother who like to fire up her smartphone when the kids are in bed. She needs something interesting to entertain her when she finally gets to relax on the sofa after a long day of parenting.
+Elsie is a 39 year old mother who likes to fire up her smartphone when the kids are in bed. She needs something interesting to entertain her when she finally gets to relax on the sofa after a long day of parenting.
 
 Her VR experience is limited to a couple of cardboard apps. She only has about 30 minutes to kill between putting the kids to bed and her husband getting home from work. She likes puzzle-based games and after trying some cardboard apps round a friend's house she has her own viewer, but hasn't used it yet.
 
@@ -58,9 +60,11 @@ The first user test I conducted was designed to check the scale of the scene fel
 
 The next round of testing was designed to test the start GUI in the app. This test was relatively straightforward. The feedback was positive: The size and scale of the UI panel "felt about right", the text was "perfectly legible", and the user understood what the panel UI was for, and what would happen if they selected the start button.
 
+![Start UI](http://i.imgur.com/YEIHb4Bm.png)
+
 ### User Test 3 - Movement
 
-I tested this with a couple of different users, and got some different responses. The first time I tested the movement mechanic was with an experienced VR user. They felt that the movement was "slow and steady", and generated no simulator sickness. The user felt there was "no weirdness in the movement", although they described a "weird speeding up then slowing down" towards the end. The second set of user testing was with an inexperienced VR user. This yielded interestingly different results. This user found the movement mechanic from the game scene out to the final UI to be "too fast in the initial movement", leaving them to feel "a bit disoriented". They also felt they were about to "hit their head on the wall on the way out of the dungeon." I decided to focus more on the feedback from the inexperienced user, as this is more my target audience for the app. I made the final movement twice as slow as I initially set, and found the user was much happier with the speed set to 4 seconds.
+I tested this with a couple of different users, and got some different responses. The first time I tested the movement mechanic was with an experienced VR user. They felt that the movement was "slow and steady", and generated no simulator sickness. The user felt there was "no weirdness in the movement", although they described a "weird speeding up then slowing down" towards the end. The second set of user testing was with an inexperienced VR user. This yielded interestingly different results. This user found the movement mechanic from the game scene through to the final UI to be "too fast in the initial movement", leaving them to feel "a bit disoriented". They also felt they were about to "hit their head on the wall on the way out of the dungeon." I decided to focus more on the feedback from the inexperienced user, as this is more my target audience for the app. I made the final movement twice as slow as I initially set, and found the user was much happier with the speed set to 4 seconds.
 
 ### User Test 4 - Final Mechanic
 
@@ -76,9 +80,13 @@ The user starts the experience interacting with a simple Start UI panel, where t
 
 The user is taken into the main area of the game, in the dungeon. The user has to complete a simple pattern recognition game, with visual and audio clues to help guide them as to their choices. If they make the wrong choice, they get feedback and the sequence starts again. If they make the right selections, they are taken out of the dungeon.
 
+![Inside the Dungeon](http://i.imgur.com/cqnN0N3m.png)
+
 ### Success and Restart
 
 Once the user has been successful they are presented with a final UI panel which congratulates them on their success, and offers them the chance to re-start the game. The user is taken back to the start point if they select the "Restart" button.
+
+![Re-start UI](http://i.imgur.com/Bfc1pnsm.png)
 
 ## Conclusion
 
@@ -88,4 +96,4 @@ This was an eye-opening experience. The iterative design process, the various el
 
 ### Link to Additional Work
 
-If you're interested in sseeing the other VR projects I've created, pease see the rest of my [Github profile](https://github.com/jonathanmundy).
+If you're interested in seeing the other VR projects I've created, please see the rest of my [Github profile](https://github.com/jonathanmundy).
